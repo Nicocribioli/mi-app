@@ -1,0 +1,42 @@
+.imagen-integrantes{
+    border-radius: 5px;
+    height: 260px;
+    width: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.contenedor-integrantes{
+    width: 1200px;
+    height: 300px;
+    margin: 10px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 3px 13px 3px rgb(0 0 0 / 9%);
+}
+
+.contenedor-texto-integfrante{
+    text-align: center;
+    padding: 40px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.nombre-integrante{
+    font-size: 1.3rem;
+}
+
+.rol-integrante{
+    font-size: 1.3rem;
+    margin-top: 15px;
+    padding-bottom: 25px;
+}
+
+.texto-integrante{
+    font-size: 1.1rem;
+    text-align:center;
+    padding: 5px;
+}
