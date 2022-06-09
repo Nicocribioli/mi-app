@@ -11,10 +11,13 @@ html, body{
 h1{
   max-width: 940px;
   font-size: 2.5em;
-  font-family: Lato, sans-serif;
+  font-family: 'Libre Bodoni', serif;
+  color: rgb(218, 218, 0);
+  letter-spacing: 2px;
   font-weight: 700;
   line-height: 1.1;
   margin: 40px 0;
+  margin-bottom: 50px;
 }
 
 .App{
@@ -33,3 +36,22 @@ h1{
   align-items: center;
   justify-content: center;
 }
+
+.nav-apps{
+  font-size: 20px;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+
+}
+
+a:visited{
+  color: rgb(26, 26, 26);
+}
+
+a:hover{
+  color: rgb(95, 88, 88);
+}
+
+
+

@@ -1,6 +1,7 @@
 import React from "react";
 import "../style-sheet/integrantes.css"
 
+
 function Integrantes(props){
   return(
     <div className="contenedor-integrantes">
@@ -15,6 +16,7 @@ function Integrantes(props){
     </div>
   );
 }
+
 
 
 export default Integrantes;

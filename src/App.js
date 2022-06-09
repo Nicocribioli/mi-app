@@ -1,6 +1,7 @@
 import './App.css';
 import Integrantes from "./componentes/integrantes.js"
 
+
 function App() {
   return (
     <div className="App">
@@ -23,7 +24,7 @@ function App() {
             <Integrantes 
       nombre="Dave Grohl"
       rol="Drummer"
-      texto="David Eric Grohl (born January 14, 1969) is an American musician, songwriter and record producer. He is the founder of Foo Fighters, for whom he is the singer, guitarist, and primary songwriter. He was the drummer for Nirvana from 1990 to 1994. At 17, Grohl joined the punk rock band Scream after the departure of their drummer Kent Stax. He became the drummer for Nirvana after Scream broke up in 1990. Nirvana's second album, Nevermind (1991), was the first to feature Grohl on drums and became a worldwide success"
+      texto="David Eric Grohl (born January 14, 1969) is an American musician, songwriter and record producer. He is the founder of Foo Fighters, for whom he is the singer, guitarist, and primary songwriter. He was the drummer for Nirvana from 1990 to 1994. At 17, Grohl joined the punk rock band Scream after the departure of their drummer Kent Stax. He became the drummer for Nirvana after Scream broke up in 1990. Nirvana's second album, Nevermind (1991), was the first to feature Grohl on drums and became a worldwide success."
       imagen="dave"
       alt="Dave Grohl picture"
       formato="jpg" />
@@ -31,5 +32,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
